@@ -9,3 +9,23 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+
+function greet(time) {
+  time = time.replace(':', '.');
+  time = parseFloat(time);
+
+  if (time < 12) {
+    return 'Good Morning';
+  } else if ( (time > 12) && (time <= 17) ) {
+    return 'Good Afternoon';
+  } else {
+    return 'Good Evening';
+  }
+
+}
+
+let h1 = document.querySelector('#greeting');
+
+function displayMessage(string) {
+  h1.textContent = string;
+}
