@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2019-04-03T18:36:09.426Z",
+    "end": "2019-04-03T18:36:10.312Z",
+    "duration": 886
+  },
+  "tests": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js greet() function Returns Good Morning before 12pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:4:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js greet() function Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:7:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js greet() function Returns Good Evening after 5pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:10:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "updates the DOM with an appropriate message",
+      "fullTitle": "index.js displayMessage() function updates the DOM with an appropriate message",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: displayMessage is not defined\n    at Context.it (test/indexTest.js:17:7)",
+        "message": "displayMessage is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Returns Good Morning before 12pm",
+      "fullTitle": "index.js greet() function Returns Good Morning before 12pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:4:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "Returns Good Afternoon between 12pm and 5pm ",
+      "fullTitle": "index.js greet() function Returns Good Afternoon between 12pm and 5pm ",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:7:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "Returns Good Evening after 5pm",
+      "fullTitle": "index.js greet() function Returns Good Evening after 5pm",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: greet is not defined\n    at Context.it (test/indexTest.js:10:7)",
+        "message": "greet is not defined"
+      }
+    },
+    {
+      "title": "updates the DOM with an appropriate message",
+      "fullTitle": "index.js displayMessage() function updates the DOM with an appropriate message",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: displayMessage is not defined\n    at Context.it (test/indexTest.js:17:7)",
+        "message": "displayMessage is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
